@@ -1,8 +1,8 @@
-package repository;
+package com.ems.ems.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import entity.Course;
+import com.ems.ems.entity.Course;
 
 public interface CourseRepository extends JpaRepository<Course,Long>{
 

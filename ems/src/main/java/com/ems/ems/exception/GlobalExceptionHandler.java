@@ -1,4 +1,4 @@
-package exception;
+package com.ems.ems.exception;
 
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;

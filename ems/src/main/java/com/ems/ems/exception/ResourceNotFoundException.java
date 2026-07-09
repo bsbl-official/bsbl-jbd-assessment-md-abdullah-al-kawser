@@ -1,4 +1,4 @@
-package exception;
+package com.ems.ems.exception;
 
 
 public class ResourceNotFoundException extends RuntimeException {

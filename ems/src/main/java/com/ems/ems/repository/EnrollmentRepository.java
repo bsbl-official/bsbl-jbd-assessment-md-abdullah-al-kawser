@@ -1,12 +1,12 @@
-package repository;
+package com.ems.ems.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import entity.Course;
-import entity.Enrollment;
-import entity.Student;
+import com.ems.ems.entity.Course;
+import com.ems.ems.entity.Enrollment;
+import com.ems.ems.entity.Student;
 
 public interface EnrollmentRepository extends JpaRepository<Enrollment,Long>{
 

@@ -1,12 +1,12 @@
-package service;
+package com.ems.ems.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import entity.Student;
-import exception.ResourceNotFoundException;
-import repository.StudentRepository;
+import com.ems.ems.entity.Student;
+import com.ems.ems.exception.ResourceNotFoundException;
+import com.ems.ems.repository.StudentRepository;
 
 @Service
 public class StudentServiceImpl implements StudentService {

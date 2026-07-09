@@ -1,13 +1,13 @@
-package controller;
+package com.ems.ems.controller;
 
 import jakarta.validation.Valid;
-import service.StudentService;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import entity.Student;
+import com.ems.ems.entity.Student;
+import com.ems.ems.service.StudentService;
 
 import java.util.List;
 

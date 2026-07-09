@@ -1,8 +1,8 @@
-package service;
+package com.ems.ems.service;
 
 import java.util.List;
 
-import entity.Student;
+import com.ems.ems.entity.Student;
 
 public interface StudentService {
 
